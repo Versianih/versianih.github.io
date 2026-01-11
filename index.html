@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enzo Versiani — Portfólio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="logo">Enzo Versiani</h1>
+
+    <nav>
+      <div class="social-icons">
+        <a href="http://lattes.cnpq.br/9041225339446323" target="_blank" title="Lattes">
+          <img src="assets/icons/lattes.png" alt="Lattes">
+        </a>
+        <a href="https://github.com/versianih" target="_blank" title="GitHub">
+          <img src="assets/icons/github.svg" alt="GitHub">
+        </a>
+        <a href="https://www.instagram.com/enzo.versiani" target="_blank" title="Instagram">
+          <img src="assets/icons/instagram.svg" alt="Instagram">
+        </a>
+        <a href="mailto:versianienzo@gmail.com" title="E-mail">
+          <img src="assets/icons/gmail.svg" alt="E-mail">
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre" class="fade-in">
+      <h2>Sobre mim</h2>
+      <p>Meu nome é <strong>Enzo Versiani</strong>, tenho 16 anos e sou apaixonado por tecnologia e tudo que envolve o mundo nerd. Atualmente sou estudante e programador amador, participando ativamente de projetos pessoais e de Iniciação Científica voltados à automação, eletrônica e desenvolvimento de software.</p>
+    </section>
+
+
+    <section id="academico" class="fade-in">
+      <h2>Formação & Trajetória Acadêmica</h2>
+      <ul>
+        <li>Instituto Federal do Espírito Santo – Campus Serra</li>
+        <li>Curso Técnico em Mecatrônica Integrado ao Ensino Médio</li>
+        <li>Participação em projetos de Iniciação Científica (Robótica e Programação)</li>
+      </ul>
+    </section>
+
+    <section id="projetos" class="fade-in">
+      <h2>Projetos</h2>
+      <div class="cards" id="projetos-lista">
+        
+        <div class="card">
+          <img src="assets/acaro_morango.webp" alt="Ácaro-Rajado">
+          <h3><strong>Agente Inteligente para Geração Automatizada de Relatórios no Manejo do Ácaro-Rajado na Cultura de Morango</strong></h3>
+          <p>Projeto de Iniciação Científica</p>
+          <button class="toggle-desc">Ver mais</button>
+          <div class="descricao">
+            <p>Parte de um projeto de Iniciação Científica, é um agente de IA que gera descrições textuais, que junto com gráficos simplificados, ajudam na compreesão por parte de agricultores de diferentes níveis de formação de dados complexos nas contínuas amostragens de plantios de morango.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/esp32-board.jpg" alt="ESP32-Board">
+          <h3><strong>Desenvolvimento e testes de uma placa de aprendizagem do ESP32</strong></h3>
+          <p>Projeto de Iniciação Científica em andamento</p>
+          <button class="toggle-desc">Ver mais</button>
+          <div class="descricao">
+            <p>Neste projeto de iniciação científica, será desenvolvido um robô da categoria “robô de resgate”, voltado para competições de robótica nos moldes da Olimpíada Brasileira de Robótica (OBR). O processo abrangerá todas as etapas de criação, desde a prototipagem e modelagem 3D até o desenvolvimento das placas de circuito (PCBs) e a programação do robô. O objetivo é preparar o robô para competir na OBR 2026, promovendo ao longo do percurso o aprimoramento de conhecimentos e habilidades técnicas na área de robótica.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/alem_do_observavel.webp" alt="Projeto Além do Observável">
+          <h3><strong>Além do Observável</strong></h3>
+          <p>Proposta para a Mostra de Astronomia do Espírito Santo (MAES)</p>
+          <button class="toggle-desc">Ver mais</button>
+          <div class="descricao">
+            <p>Além do Observável, é um projeto prático, que possui como principal finalidade, garantir que a astronomia seja um campo acessível e inclusivo para todos, permitindo que pessoas com deficiência visual possam explorar, aprender e contribuir para o nosso entendimento do universo. O foco central desse trabalho é tornar a astronomia, uma área disponível e, principalmente, um sonho possível, além de proporcionar uma maior inclusão e diversidade no campo científico.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/robotica_educacional.jpg" alt="Robótica Educacional">
+          <h3><strong>Robótica Educacional</strong></h3>
+          <p>Projeto de Extensão</p>
+          <button class="toggle-desc">Ver mais</button>
+          <div class="descricao">
+            <p>O projeto de extensão, realizado ao longo de 2023, teve como foco principal a construção, prototipação e desenvolvimento de sistemas de automação e segurança aplicados à área de domótica. Conhecido como Casa Inteligente, o projeto utilizou microcontroladores e sensores simples e de fácil acesso, demonstrando que a automação residencial pode ser implementada de forma acessível e de baixo custo. Com base em uma metodologia ativa de ensino e aprendizagem, o projeto possibilitou o desenvolvimento de diversos outros protótipos e experimentos complementares durante o seu período de execução.</p>
+          </div>
+        </div>
+
+        <div class="card extra">
+          <img src="assets/hdw-utils.jpeg" alt="Biblioteca HDW-UTILS">
+          <h3><strong>HDW-UTILS</strong></h3>
+          <p>Biblioteca Arduino desenvolvida para facilitar operações repetitivas na programação de microcontroladores ESP32 e Arduino.</p>
+          <button class="toggle-desc">Ver mais</button>
+          <div class="descricao">
+            <p>
+              A HDW-UTILS é uma biblioteca para microcontroladores como Arduino e ESP32 criada com um simples propósito, simplificar trechos de código repetitivos e cansativos em sistemas embarcados, tais como: definições de pinos, sistema de delay assíncronos, etc.
+              <button>
+                <a href="https://github.com/versianih/hdw-utils" style="text-decoration: none; color: inherit;">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+              </button>
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <button id="ver-mais-projetos" style="margin-top: 10px;">Ver mais projetos</button>
+    </section>
+
+    <section id="hobbies" class="fade-in">
+      <h2>Olimpíadas & Hobbies</h2>
+      <div class="dual">
+        <div>
+          <h3>Olimpíadas Científicas</h3>
+          <ul id="olimpiadas-lista">
+            <li><strong>OBMEP</strong> — Menção Honrosa [2022]</li>
+            <li><strong>OBA</strong> — Ouro [2023/24/25], Prata [2022]</li>
+            <li><strong>OIMSF</strong> — Ouro Nacional/Regional [2024]</li>
+            <li class="extra"><strong>Canguru</strong> — Ouro [2024], Prata [2025]</li>
+            <li class="extra"><strong>Mandacaru</strong> — Ouro [2023/25], Prata [2024]</li>
+            <li class="extra"><strong>OIMC</strong> — Bronze [2024]</li>
+            <li class="extra"><strong>OBS</strong> — Prata [2025]</li>
+            <li class="extra"><strong>OBRL</strong> — Ouro [2023]</li>
+          </ul>
+          <button id="ver-mais-premios">Ver mais premiações</button>
+        </div>
+
+        <div>
+          <h3>Aprofundamento em Matemática</h3>
+          <ul>
+            <li><strong>PIC</strong> – Programa de Iniciação Científica da OBMEP [2024]</li>
+            <li><strong>POTI</strong> – Polo Olímpico de Treinamento Intensivo [2024–2025]</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Hobbies</h3>
+            <ul class="hobbies">
+              <li>
+                <img src="assets/xadrez.webp" alt="Xadrez">
+                <div class="texto">
+                  <h3><strong>Xadrez</strong></h3>
+                  <p>Pratico xadrez rotineiramente e participo de pequenos campeonatos, colecionando algumas premiações nos mesmos.</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="texto">
+                  <h3><strong>Programação</strong></h3>
+                  <p>Desenvolvo projetos pessoais por hobby, explorando linguagens, microcontroladores e novas tecnologias.</p>
+                </div>
+                <img src="assets/programacao.webp" alt="Programação">
+              </li>
+            </ul>
+        </div>
+
+        <div>
+          <h3>­</h3>
+          <ul class="hobbies">
+            <li>
+                <img src="assets/cubo.webp" alt="Cubo Mágico">
+                <div class="texto">
+                  <h3><strong>Cubo Mágico</strong></h3>
+                  <p>CuboManíaco de plantão, resolvo alguns tipos de cubos de rubik diferentes e participo de competições raramente.</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="texto">
+                  <h3><strong>Robótica</strong></h3>
+                  <p>Desde o ensino fundamental inserido nessa área, desperta meu interesse para além dos projetos de pesquisa e extensão, se tornando uma espécie de lazer com pequenos projetos pessoais.</p>
+                </div>
+                <img src="assets/eletronica.webp" alt="Eletrônica">
+              </li>
+          </ul>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="fade-in">
+        <h2>Contato</h2>
+        
+        <ul class="links">
+          <li>
+            <a href="http://lattes.cnpq.br/9041225339446323" target="_blank" style="text-decoration: none;">
+              <img src="assets/icons/lattes.png" alt="Lattes"> Lattes
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/versianih" target="_blank" style="text-decoration: none;">
+              <img src="assets/icons/github.svg" alt="GitHub"> GitHub
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/enzo.versiani" target="_blank" style="text-decoration: none;">
+              <img src="assets/icons/instagram.svg" alt="Instagram"> Instagram
+            </a>
+          </li>
+          <li>
+            <a href="mailto:versianienzo@gmail.com" style="text-decoration: none;">
+              <img src="assets/icons/gmail.svg" alt="E-mail"> E-mail
+            </a>
+          </li>
+        </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Enzo Versiani.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
